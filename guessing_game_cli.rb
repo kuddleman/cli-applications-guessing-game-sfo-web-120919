@@ -7,7 +7,7 @@ def run_guessing_game
   # Capture user input from the command line
   guess = gets.chomp
   # Compare that input to the random number that has been generated
- 
+
   # Print out one of three statements:
   # If the user's input matches the random number: You guessed the correct number!
   # If the user's input DOES NOT matches the random number: Sorry! The computer guessed <number>.
@@ -20,4 +20,3 @@ def run_guessing_game
       puts "Goodbye!"
     end
   end
-
