@@ -16,6 +16,6 @@ gets.chomp
   elsif correct_num != guess
     puts "Sorry! The computer guessed#{correct_num}"
   elsif correct_num = "exit"
-    puts "Goodbye!"      
+    puts "Goodbye!"
   end
 end  
