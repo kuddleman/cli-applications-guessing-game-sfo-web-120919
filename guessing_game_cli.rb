@@ -2,9 +2,9 @@ def run_guessing_game
 # Generate and store a random number between 1 and 6
 correct_num = rand(6) + 1
 # Prompts the user to guess their own number between 1 and 6
-guess = gets("Guess a number between 1 and 6 ")
+gets("Guess a number between 1 and 6 ")
 # Capture user input from the command line
-guess = gets.chomp
+name = gets.chomp
 # Compare that input to the random number that has been generated
 
 # Print out one of three statements:
